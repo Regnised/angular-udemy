@@ -1,3 +1,9 @@
 h3 {
   color: darkblue;
 }
+.showSecret {
+  display: none;
+}
+.whiteText {
+  color: white;
+}
