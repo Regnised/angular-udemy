@@ -6,9 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  menuName: string = 'recipe';
-
-  onClickMenu(menuName: string) {
-      this.menuName = menuName;
-  }
+  onlyOdd = false;
+  oddNumbers = [1, 3, 5];
+  evenNumbers = [2, 4];
 }
