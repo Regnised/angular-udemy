@@ -1,8 +1,9 @@
+<app-header (page)="onClickMenu($event)"></app-header>
 <div class="container">
   <div class="row">
-    <div class="col-xs-12">
-      <h3>I'm in AppComponent!</h3>
-      <app-servers> </app-servers>
+    <div class="col-md-12">
+      <app-recipe-book *ngIf="menuName === 'recipe'"></app-recipe-book>
+      <app-shopping-list *ngIf="menuName === 'shopping-list'"></app-shopping-list>
     </div>
   </div>
 </div>
